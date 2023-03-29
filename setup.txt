@@ -1,0 +1,17 @@
+FOR WINDOWS - 
+-- Installing JDK
+1. Download sublime text
+2. Download java JDK - LATEST
+3. Run and Install JDK 
+4 Open cmd > java --version > IT WILL SHOW THE LATEST VERSION
+5 Go to JDK > bin [ copy the bin path ]
+6 Open envirnment variable > Advance setting > System Variable > Path > Add New > Paste the "bin" path for JDK
+7. Open sublime text > Tools > build system > New build > 
+{
+	"shell_cmd": "javac $file && java $file_base_name"
+}
+Paste the below code > Ctrl + S ( Save the file with RunJava FILENAME )
+8. Tools > build system > RunJava
+9. Write a sample java Code and > Ctrl + B 
+
+
