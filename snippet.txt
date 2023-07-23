@@ -2,6 +2,9 @@ ADDING A CODE SNIPPET
 In file system, where the sublime is stored
 e.g > C:\Users\Lenovo\AppData\Roaming\Sublime Text 3\Packages\User
 1. GO TO > PackageResourceViewer: Open Resource -> User -> [name of your snippet file]
+* in MAC - 
+ [ out = new PrintWriter("/Users/shivamsingh/Documents/CF/output.txt");
+ sc = new Kioken(new File("/Users/shivamsingh/Documents/CF/input.txt")); ]
 
 <snippet>
   <content><![CDATA[import java.io.*;
